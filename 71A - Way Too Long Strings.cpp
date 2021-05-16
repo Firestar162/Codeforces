@@ -14,11 +14,11 @@ int main() {
 		cin >> str;	// read str
 		
 		if (str.length() > 10) {	// if the number of letters in str exceeds 10:
-			cout << str.at(0) << str.length() - 2 << str.back() << endl;	// print the first letter, then the number of letters between the first and last letters, then the last letter
+			cout << str.at(0) << str.length() - 2 << str.back() << endl;	// print the first letter, then the number of letters between the first and last letters, then the last letter (this is the abbreviation)
 		}
 		
 		else {	
-			cout << str << endl;	// else simply print str, because the number of letters will be less than 10
+			cout << str << endl;	// else simply print str, because the number of letters will be less than 10 (no abbreviation needed)
 		}
 	}
   
